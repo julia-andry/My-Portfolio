@@ -1,0 +1,379 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.line {
+  border-top: 1.5px solid white;
+  width: 700px;
+  position: relative;
+  top: 90px;
+  right: 10px;
+  max-width: 85ch;
+
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+.circleOne {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+  }
+
+.topmenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.circles{
+    position: absolute;
+    top: 10px;
+    margin-right: 50px;
+}
+.figures{
+    display: flex;
+    justify-content: end;
+    margin-left: 300px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.picture{
+    display: flex;
+    margin-top: 50px;
+}
+.btn, .submit{
+    border: 1 px solid;
+    border-color: #43a59c;
+    color: #43a59c;
+    background-color: transparent;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.par{
+    color: white;
+    padding: 20px;
+}
+h5{
+    color:rgb(129, 125, 133);
+}
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+      
+.lineanimation{
+    display: flex;
+}
+.mypic{
+    padding: 10px;
+}
+.greeting{
+    font-size: 35px;
+}
+
+.aboutBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+}
+.aboutText, .parDevelopment, .parDesign, .parEducation{
+    font-family: 'Istok Web', sans-serif;
+    padding: 50px;
+    font-size: 20px;
+}
+.about, .development, .design, .education, .projectHeading {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+}
+.lineAbout, .lineDevelopment, .lineDesign, .lineEducation{
+    border-top: 1.5px solid black;
+    width: 300px;
+}
+.aboutHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.underline{
+    display: flex;
+    justify-content: center;
+}
+.lineFoot{
+    border-top: 1.5px solid white;
+    width: 1200px;
+    padding: 30px;
+    position: relative;
+    margin-top: 70px;
+}
+.circleTwo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    position: absolute;
+    margin-left: -1150px;
+}
+.underlinePosition{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.developmentBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+.circleThree{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 300px;
+}
+.lineDesign{
+    position: relative;
+    
+}
+
+.projectBlock{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+}
+
+.projectHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact{
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+.contactBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.contactHeading{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.parContact{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    color: #43a59c;
+}
+#name, #email, #message{
+    width: 500px;
+}
+
+.card-desc {
+    display: block;
+    font-size: 1.5rem;
+    position: absolute;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    padding: 18px 30%;
+    background-color: white;
+    overflow-y: scroll;
+    transition: 0.8s ease;
+    font-family: 'Istok Web', sans-serif;
+    color: #43a59c;
+    text-align: center;
+  }
+  
+  .card:hover .card-desc {
+    opacity: 0.9;
+    height: 100%;
+  }
+.card img{
+    position: relative;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardsTwo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 800px){
+    .line {
+        border-top: 1.5px solid white;
+        width: 500px;
+        position: relative;
+        top: 90px;
+        right: 150px;
+        max-width: 85ch;
+      
+      }
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        top: 25px;
+        right: 100px;
+    }
+    .circleOne {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        top: 40px;
+        right: 115px;
+    
+      }
+      .navbar{
+        font-size: 20px;
+    }
+    .lineFoot{
+        border-top: 1.5px solid white;
+        width: 700px;
+        padding: 30px;
+        position: relative;
+        margin-top: 70px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .mypic{
+        width: 150px;
+    }
+    .aboutText, .parDevelopment, .parDesign, .parEducation{
+        font-size: 15px;
+    }
+    .about, .development, .design, .education, .projectHeading {
+        font-size: 30px;
+    }
+    .circleTwo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        margin-left: -650px;
+        top: 20px;
+    }
+    .contactHeading{
+        font-size: 30px; 
+    }
+    .parContact{
+       font-size: 15px;
+    }
+}
+@media all and (max-width: 500px){
+    .circleTwo{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        margin-left: -300px;
+        top: 35px;
+    }
+    .lineFoot{
+        border-top: 1.5px solid white;
+        width: 350px;
+        padding: 30px;
+        position: relative;
+        margin-top: 70px;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        top: 35px;
+        right: 120px;
+    }
+    .circleOne {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border: 1.5px solid white;
+        position: absolute;
+        top: 47px;
+        right: 132px;
+    
+      }
+      .line {
+        width: 350px;
+        position: relative;
+        top: 90px;
+        right: 150px;
+        max-width: 85ch;
+      }
+      #name, #email, #message{
+        width: 300px;
+    }
+    .card img{
+        width: 350px;
+    }
+    .circleThree{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1.5px solid black;
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 230px;
+    }
+}
