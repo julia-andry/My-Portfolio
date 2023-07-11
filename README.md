@@ -2,7 +2,7 @@
 ​
 Portfolio of work samples
 ​
-#Technologies Used
+# Technologies Used
 
 * HTML
 * CSS
@@ -15,9 +15,6 @@ This portfolio website is built with cutting-edge CSS: flexbox and media queries
 # Usage 
 ​
 To navigate the content, you can scroll or use the navigation menu on the top right of the page. If you click the image of the application in the 'Projects" section, you will be directed to the deployed application. You can send any questions through contact me form in the "Contact" section.
-
-# Page View
-
 
 # Page View
 | :-----: | :-: |
