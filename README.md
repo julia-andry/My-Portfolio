@@ -17,7 +17,7 @@ This portfolio website is built with cutting-edge CSS: flexbox and media queries
 To navigate the content, you can scroll or use the navigation menu on the top right of the page. If you click the image of the application in the 'Projects" section, you will be directed to the deployed application. You can send any questions through contact me form in the "Contact" section.
 
 # Page View
-![screenshot](https://github.com/julia-andry/My-Portfolio/assets/135476911/3c020674-0e09-43c6-b6d9-f11758b7f0fa)
+![screenshot](https://github.com/julia-andry/My-Portfolio/assets/135476911/33b59343-2724-4d02-bd91-d041dff9023a)
 
 
 # Link
